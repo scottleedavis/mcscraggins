@@ -1,6 +1,6 @@
 # McScraggins
 
-An silly alexa skill my daughter Zeyana requested.  Built using [jovo](https://github.com/jovotech/jovo-framework)
+A silly alexa skill my daughter Zeyana requested.  Built using [jovo](https://github.com/jovotech/jovo-framework)
 
 ![img](scraggins.jpg)
 
