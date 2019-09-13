@@ -4,6 +4,17 @@
   "description": "A sample voice app that works with the Jovo Framework",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc",
+    "tscw": "tsc --watch",
+    "tslint": "tslint -p tsconfig.json -c tslint.json",
+    "bundle": "gulp --gulpfile node_modules/jovo-framework/gulpfile.js build-ts --cwd ./",
+    "start": "cd ./dist && node index.js --webhook",
+    "launch": "npm start -- --launch",
+    "clean": "rm -fr bundle; rm -fr dist",
+    "build": "npm run bundle; jovo build"
+  },
   "dependencies": {
     "jovo-db-filedb": "^2.0.2",
     "jovo-framework": "^2.2.15",
@@ -23,15 +34,6 @@
     "ts-jest": "^23.10.4",
     "typescript": "^3.3.4",
     "tslint": "^5.14.0"
-  },
-  "scripts": {
-    "test": "jest",
-    "tsc": "tsc",
-    "tscw": "tsc --watch",
-    "tslint": "tslint -p tsconfig.json -c tslint.json",
-    "bundle": "gulp --gulpfile node_modules/jovo-framework/gulpfile.js build-ts --cwd ./",
-    "start": "cd ./dist && node index.js --webhook",
-    "launch": "npm start -- --launch"
   },
   "jest": {
     "transform": {

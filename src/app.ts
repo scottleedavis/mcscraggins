@@ -24,16 +24,13 @@ app.use(
 
 app.setHandler({
     LAUNCH() {
-        return this.toIntent('HelloWorldIntent');
+        return this.toIntent('McScragginsIntent');
     },
 
-    HelloWorldIntent() {
-        this.ask('Hello World! What\'s your name?', 'Please tell me your name.');
+    McScragginsIntent() {
+        this.ask(`McScraggins, McScraggins, McScraggins. `, `McScraggins?`);
     },
 
-    MyNameIsIntent() {
-        this.tell('Hey ' + this.$inputs.name.value + ', nice to meet you!');
-    },
 });
 
 export {app};

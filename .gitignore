@@ -4,3 +4,5 @@ db/
 bundle/
 bundle.zip
 .env
+.idea
+*.iml

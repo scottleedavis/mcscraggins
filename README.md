@@ -2,6 +2,22 @@
 
 An silly alexa skill my daughter Zeyana requested.  Built using [jovo](https://github.com/jovotech/jovo-framework)
 
+![img](scraggins.jpg)
+
+### build
+
+```bash
+npm run bundle
+jovo build
+```
+
+```bash
+jovo run
+```
+
+```bash
+jovo deploy
+```
 
 ##### References
 
