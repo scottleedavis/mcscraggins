@@ -2,14 +2,22 @@
 
 An [Alexa](https://alexa.amazon.com/spa/index.html) skill requested by my daughter Zeyana.  
 ```
-trigger: alexa, do the scraggins.
+trigger: alexa, do the McScraggins.
 
 alexa: McScraggins, McScraggins, McScraggins.
 ```
 Built using [jovo](https://github.com/jovotech/jovo-framework)
 
-![img](scraggins.jpg)
+![img](scraggins.png)
 
+### environment
+
+```go
+npm install -g jovo-cli
+npm install -g ask-cli
+
+ask init
+```
 ### build
 
 ```bash
@@ -19,7 +27,7 @@ npm run build
 ### run local
 
 ```bash
-jovo run
+npm run local
 ```
 
 ### deploy

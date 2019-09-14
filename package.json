@@ -1,7 +1,7 @@
 {
-  "name": "jovo-sample-voice-app-nodejs",
+  "name": "mcscraggins",
   "version": "2.0.2",
-  "description": "A sample voice app that works with the Jovo Framework",
+  "description": "An alexa skill",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "scripts": {
@@ -14,6 +14,7 @@
     "launch": "npm start -- --launch",
     "clean": "rm -fr bundle; rm -fr dist",
     "build": "npm run bundle; jovo build",
+    "local": "jovo run",
     "deploy": "jovo deploy --platform alexaSkill"
   },
   "dependencies": {
