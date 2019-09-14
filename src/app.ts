@@ -31,6 +31,10 @@ app.setHandler({
         this.ask(`McScraggins, McScraggins, McScraggins. `, `McScraggins?`);
     },
 
+    'AMAZON.CancelIntent'() {
+        this.tell('McScraggins!');
+    },
+
 });
 
 export {app};
