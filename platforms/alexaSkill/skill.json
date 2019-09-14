@@ -13,8 +13,8 @@
 					],
 					"name": "mcscraggins",
 					"description": "Do the McScraggins",
-					"smallIconUri": "https://github.com/scottleedavis/mcscraggins/raw/master/scraggins.png",
-					"largeIconUri": "https://github.com/scottleedavis/mcscraggins/raw/master/scraggins.png"
+					"smallIconUri": "https://github.com/scottleedavis/mcscraggins/raw/master/scraggins_s.png",
+					"largeIconUri": "https://github.com/scottleedavis/mcscraggins/raw/master/scraggins_l.png"
 				}
 			},
 			"isAvailableWorldwide": true,
