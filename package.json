@@ -15,7 +15,7 @@
     "clean": "rm -fr bundle; rm -fr dist",
     "build": "npm run bundle; jovo build",
     "local": "jovo run",
-    "deploy": "jovo deploy --platform alexaSkill"
+    "deploy": "jovo deploy"
   },
   "dependencies": {
     "jovo-db-filedb": "^2.0.2",
