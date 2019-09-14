@@ -13,7 +13,8 @@
     "start": "cd ./dist && node index.js --webhook",
     "launch": "npm start -- --launch",
     "clean": "rm -fr bundle; rm -fr dist",
-    "build": "npm run bundle; jovo build"
+    "build": "npm run bundle; jovo build",
+    "deploy": "jovo deploy --platform alexaSkill"
   },
   "dependencies": {
     "jovo-db-filedb": "^2.0.2",

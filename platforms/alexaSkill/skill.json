@@ -3,12 +3,12 @@
 		"publishingInformation": {
 			"locales": {
 				"en-US": {
-					"summary": "Sample Short Description",
+					"summary": "Do the McScraggins",
 					"examplePhrases": [
-						"Alexa open hello world"
+						"Alexa do the McScraggins."
 					],
 					"keywords": [
-						"hello",
+						"mcscraggins",
 						"world"
 					],
 					"name": "mcscraggins",

@@ -8,8 +8,7 @@ Built using [jovo](https://github.com/jovotech/jovo-framework)
 ### build
 
 ```bash
-npm run bundle
-jovo build
+npm run build
 ```
 
 ### run local
@@ -21,5 +20,5 @@ jovo run
 ### deploy
 
 ```bash
-jovo deploy
+npm run deploy
 ```
