@@ -28,10 +28,14 @@ app.setHandler({
     },
 
     McScragginsIntent() {
-        this.ask(`McScraggins, McScraggins, McScraggins. `, `McScraggins?`);
+        this.tell(`McScraggins, McScraggins, McScraggins. `);
     },
 
     'AMAZON.CancelIntent'() {
+        this.tell('McScraggins!');
+    },
+
+    'AMAZON.HelpIntent'() {
         this.tell('McScraggins!');
     },
 
