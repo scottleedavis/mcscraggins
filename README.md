@@ -2,7 +2,7 @@
 
 An [Alexa](https://alexa.amazon.com/spa/index.html) skill requested by my daughter Zeyana.  
 ```
-trigger: alexa, do the McScraggins.
+trigger: Alexa, do the McScraggins.
 
 alexa: McScraggins, McScraggins, McScraggins.
 ```
