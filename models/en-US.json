@@ -1,12 +1,10 @@
 {
-	"invocation": "do the mix dragons",
+	"invocation": "sing the mix cragin's",
 	"intents": [
 		{
 			"name": "McScragginsIntent",
 			"phrases": [
-				"mcscraggins",
-				"open mcscraggins",
-				"do the mcscraggins"
+				"sing the mcscraggins"
 			]
 		}
 	],
