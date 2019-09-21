@@ -22,13 +22,21 @@ app.use(
 // APP LOGIC
 // ------------------------------------------------------------------
 
+const launchTell = `<speak><amazon:effect name="whispered">McScraggins</amazon:effect>,
+                    <voice name="Brian">McScraggins</voice>,
+                    <voice name="Russell">McScraggins</voice>,
+                    <voice name="Raveena">McScraggins</voice>,
+                    <voice name="Joey">McScraggins</voice>,
+                    <voice name="Aditi">McScraggins</voice>.</speak>`;
+
+
 app.setHandler({
     LAUNCH() {
         return this.toIntent('McScragginsIntent');
     },
 
     McScragginsIntent() {
-        this.tell(`<speak><amazon:effect name="whispered">McScraggins,</amazon:effect>,<break time="2s"/>  <emphasis level="strong">McScraggins</emphasis>, <prosody pitch="x-high">McScraggins</prosody>.</speak>`);
+        this.tell(launchTell);
     },
 
     'AMAZON.CancelIntent'() {

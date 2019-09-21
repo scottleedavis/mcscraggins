@@ -2,7 +2,7 @@
 
 An [Alexa](https://alexa.amazon.com/spa/index.html) skill requested by my daughter Zeyana.  
 ```
-invocation: Alexa, sing the McScraggins.
+invocation: Alexa, sing the Scraggins.
 
 response: McScraggins, McScraggins, McScraggins.
 ```
@@ -12,28 +12,31 @@ Built using [jovo](https://github.com/jovotech/jovo-framework)
 
 ### environment
 
-```go
+```bash
 npm install -g jovo-cli
 npm install -g ask-cli
 
 ask init
 ```
-### build
+### build & run local
 
 ```bash
-npm run build
-or
 npm run build-local
-```
-
-### run local
-
-```bash
 npm run local
 ```
 
-### deploy
+### build & run lambda local, with alexa remote
 
 ```bash
+npm run build-local
+npm run deploy
+npm run local
+```
+
+
+### build & deploy remote
+
+```bash
+npm run build
 npm run deploy
 ```

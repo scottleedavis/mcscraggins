@@ -9,8 +9,6 @@ module.exports = {
     googleAction: {
        nlu: 'dialogflow',
     },
-    // endpoint: 'arn:aws:lambda:us-west-2:982879137855:function:mcScraggins',
-    // endpoint: '${JOVO_WEBHOOK_URL}',
     defaultStage: 'dev',
     stages: {
         local: {

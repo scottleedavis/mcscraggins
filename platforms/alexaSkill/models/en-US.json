@@ -1,13 +1,13 @@
 {
 	"interactionModel": {
 		"languageModel": {
-			"invocationName": "sing the mix cragin's",
+			"invocationName": "sing the scroggins",
 			"types": [],
 			"intents": [
 				{
 					"name": "McScragginsIntent",
 					"samples": [
-						"sing the mcscraggins"
+						"sing the scraggins"
 					]
 				},
 				{
