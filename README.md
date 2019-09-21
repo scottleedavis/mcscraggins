@@ -22,6 +22,8 @@ ask init
 
 ```bash
 npm run build
+or
+npm run build-local
 ```
 
 ### run local
