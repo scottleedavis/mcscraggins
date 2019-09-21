@@ -28,15 +28,15 @@ app.setHandler({
     },
 
     McScragginsIntent() {
-        this.tell(`McScraggins, McScraggins, McScraggins. `);
+        this.tell(`<speak><amazon:effect name="whispered">McScraggins,</amazon:effect>,<break time="2s"/>  <emphasis level="strong">McScraggins</emphasis>, <prosody pitch="x-high">McScraggins</prosody>.</speak>`);
     },
 
     'AMAZON.CancelIntent'() {
-        this.tell('McScraggins!');
+        this.tell('<speak><prosody pitch="x-high">McScraggins!</prosody></speak>');
     },
 
     'AMAZON.HelpIntent'() {
-        this.tell('McScraggins!');
+        this.tell('<speak><prosody pitch="x-high">McScraggins!</prosody></speak>');
     },
 
 });

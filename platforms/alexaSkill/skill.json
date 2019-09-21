@@ -3,9 +3,9 @@
 		"publishingInformation": {
 			"locales": {
 				"en-US": {
-					"summary": "Do the McScraggins",
+					"summary": "Sing the McScraggins",
 					"examplePhrases": [
-						"Alexa do the McScraggins."
+						"Alexa sing the McScraggins."
 					],
 					"keywords": [
 						"mcscraggins",
@@ -18,7 +18,7 @@
 				}
 			},
 			"isAvailableWorldwide": true,
-			"testingInstructions": "Do the McScraggins.",
+			"testingInstructions": "Sing the McScraggins.",
 			"category": "EDUCATION_AND_REFERENCE",
 			"distributionCountries": []
 		},
@@ -26,7 +26,7 @@
 			"custom": {
 				"endpoint": {
 					"sslCertificateType": "Wildcard",
-					"uri": "arn:aws:lambda:us-west-2:982879137855:function:mcScraggins"
+					"uri": "https://webhook.jovo.cloud/bb5f012c-673e-427e-ab22-0cfb9781be19"
 				}
 			}
 		},
