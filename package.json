@@ -13,8 +13,9 @@
     "start": "cd ./dist && node index.js --webhook",
     "launch": "npm start -- --launch",
     "clean": "rm -fr bundle; rm -fr dist",
-    "build": "npm run bundle; jovo build",
-    "build-local": "npm run bundle; jovo build --stage local",
+    "cleanup": "rm platforms/googleAction/dialogflow/intents/.json",
+    "build": "npm run bundle; jovo build; npm run cleanup",
+    "build-local": "npm run bundle; jovo build --stage local; npm run cleanup",
     "local": "jovo run --stage local",
     "deploy": "jovo deploy --platform alexaSkill"
   },

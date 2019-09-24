@@ -3,22 +3,22 @@
 		"publishingInformation": {
 			"locales": {
 				"en-US": {
-					"summary": "Sing the Scraggins",
+					"summary": "What you got",
 					"examplePhrases": [
-						"Alexa sing the Scraggins."
+						"Alexa what you got."
 					],
 					"keywords": [
 						"mcscraggins",
 						"scraggins"
 					],
 					"name": "mcscraggins",
-					"description": "Sing the Scraggins",
+					"description": "What you got",
 					"smallIconUri": "https://github.com/scottleedavis/mcscraggins/raw/master/scraggins_s.png",
 					"largeIconUri": "https://github.com/scottleedavis/mcscraggins/raw/master/scraggins_l.png"
 				}
 			},
 			"isAvailableWorldwide": true,
-			"testingInstructions": "Sing the Scraggins.",
+			"testingInstructions": "What you got.",
 			"category": "EDUCATION_AND_REFERENCE",
 			"distributionCountries": []
 		},

@@ -2,9 +2,9 @@
 
 An [Alexa](https://alexa.amazon.com/spa/index.html) skill requested by my daughter Zeyana.  
 ```
-invocation: Alexa, sing the Scraggins.
+invocation: Alexa, what you got.
 
-response: McScraggins, McScraggins, McScraggins.
+response: McScraggins, McScraggins, McScraggins, McScraggins, McScraggins, McScraggins.
 ```
 Built using [jovo](https://github.com/jovotech/jovo-framework)
 
